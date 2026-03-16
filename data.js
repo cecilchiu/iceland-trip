@@ -988,5 +988,420 @@ const tripData = {
                 </ul>
             `
         }
+    ],
+
+    // 必買伴手禮
+    souvenirs: [
+        {
+            category: "🧶 冰島羊毛衣",
+            items: [
+                {
+                    name: "Lopapeysa 傳統羊毛衣",
+                    price: "15000-25000 ISK",
+                    where: "Vík Wool、Handknitting Association、跳蚤市場 Kolaportið",
+                    note: "100% 冰島羊毛，保暖且獨特圖案。跳蚤市場可買到二手便宜貨（週六日 11:00-17:00）"
+                },
+                {
+                    name: "羊毛圍巾/手套",
+                    price: "3000-8000 ISK",
+                    where: "各大紀念品店、66°North",
+                    note: "比毛衣便宜，送禮自用都適合"
+                }
+            ]
+        },
+        {
+            category: "🐟 海產品（超推薦）",
+            items: [
+                {
+                    name: "Omega-3 魚油膠囊",
+                    price: "3000-6000 ISK",
+                    where: "藥妝店 Lyfja、超市、機場",
+                    note: "⭐ 冰島魚油品質世界頂級！Lysi 品牌最有名，純淨無腥味"
+                },
+                {
+                    name: "魚子醬（Kaviar）",
+                    price: "800-1500 ISK/條",
+                    where: "各大超市（冷藏區）",
+                    note: "⭐ 當地人早餐必備！塗在麵包上超好吃，推薦 Kalles 品牌"
+                },
+                {
+                    name: "煙燻鮭魚/鱈魚",
+                    price: "2000-4000 ISK",
+                    where: "超市、機場免稅店",
+                    note: "真空包裝，可以帶回台灣（注意海關規定）"
+                },
+                {
+                    name: "魚乾/魚皮零食（Harðfiskur）",
+                    price: "500-1000 ISK",
+                    where: "超市、加油站",
+                    note: "配奶油超好吃！高蛋白零食，冰島人最愛"
+                }
+            ]
+        },
+        {
+            category: "🍫 巧克力與零食",
+            items: [
+                {
+                    name: "Omnom Chocolate",
+                    price: "800-1500 ISK/片",
+                    where: "超市、機場免稅店",
+                    note: "冰島精品巧克力，包裝精美，口味獨特（烤大麥、牛奶海鹽、咖啡）"
+                },
+                {
+                    name: "Nóa Siríus 巧克力",
+                    price: "400-800 ISK",
+                    where: "各大超市",
+                    note: "冰島國民巧克力，價格親民。推薦甘草巧克力（Súkkulaði）很特別！"
+                },
+                {
+                    name: "甘草糖（Lakkrís）",
+                    price: "300-600 ISK",
+                    where: "超市、便利商店",
+                    note: "冰島人超愛甘草！但台灣人可能不習慣，建議先試吃"
+                },
+                {
+                    name: "Þristur 巧克力餅乾",
+                    price: "400-600 ISK",
+                    where: "超市",
+                    note: "當地人從小吃到大的零食，CP 值高"
+                }
+            ]
+        },
+        {
+            category: "🧂 調味料與食材",
+            items: [
+                {
+                    name: "冰島鹽（Saltverk）",
+                    price: "800-1500 ISK",
+                    where: "超市、紀念品店",
+                    note: "熔岩鹽、海鹽、煙燻鹽等多種選擇，送禮自用都好"
+                },
+                {
+                    name: "北極百里香茶（Blóðberg）",
+                    price: "1000-2000 ISK",
+                    where: "超市、藥妝店",
+                    note: "冰島野生香草茶，有助睡眠與放鬆"
+                },
+                {
+                    name: "樺樹糖漿",
+                    price: "2000-3000 ISK",
+                    where: "超市、有機商店",
+                    note: "比楓糖漿清爽，冰島特產"
+                }
+            ]
+        },
+        {
+            category: "💆 護膚保養品",
+            items: [
+                {
+                    name: "藍湖/Sky Lagoon 產品",
+                    price: "3000-8000 ISK",
+                    where: "藍湖、Sky Lagoon、機場免稅店",
+                    note: "火山泥面膜、礦物保濕霜等，很好用但偏貴"
+                },
+                {
+                    name: "Sóley Organics",
+                    price: "2000-5000 ISK",
+                    where: "雷克雅維克市區商店、機場",
+                    note: "冰島天然有機護膚品牌，成分純淨"
+                },
+                {
+                    name: "Bioeffect EGF 精華液",
+                    price: "15000-30000 ISK",
+                    where: "機場免稅店、藥妝店",
+                    note: "冰島高端保養品，用大麥萃取 EGF，很貴但評價高"
+                }
+            ]
+        },
+        {
+            category: "🍺 酒類（機場免稅店限定）",
+            items: [
+                {
+                    name: "Brennivín（黑死酒）",
+                    price: "約 2500 ISK",
+                    where: "機場免稅店、Vínbúðin 國家酒專賣店",
+                    note: "⭐ 冰島傳統烈酒，帶有茴香味，很特別！當地人聖誕節必喝"
+                },
+                {
+                    name: "Reyka 伏特加",
+                    price: "約 3000 ISK",
+                    where: "機場免稅店",
+                    note: "冰島火山泉水釀造，口感純淨"
+                },
+                {
+                    name: "Einstök 精釀啤酒",
+                    price: "約 400 ISK/罐",
+                    where: "超市（無酒精版）、機場免稅店（含酒精）",
+                    note: "推薦 White Ale，清爽好喝"
+                },
+                {
+                    name: "Flóki 威士忌",
+                    price: "約 8000-12000 ISK",
+                    where: "機場免稅店、Vínbúðin",
+                    note: "冰島唯一威士忌蒸餾廠，用羊糞泥炭燻製，風味獨特"
+                }
+            ]
+        },
+        {
+            category: "🎨 特色紀念品",
+            items: [
+                {
+                    name: "火山石製品",
+                    price: "1000-5000 ISK",
+                    where: "紀念品店",
+                    note: "火山石項鍊、擺飾等，獨特且有意義"
+                },
+                {
+                    name: "冰島地圖海報",
+                    price: "1500-3000 ISK",
+                    where: "書店、紀念品店",
+                    note: "精美的冰島地圖或極光海報"
+                },
+                {
+                    name: "Puffin 海鸚玩偶",
+                    price: "2000-4000 ISK",
+                    where: "各大紀念品店",
+                    note: "冰島代表性動物，超可愛"
+                },
+                {
+                    name: "極光/冰島明信片",
+                    price: "200-400 ISK/張",
+                    where: "書店、加油站、紀念品店",
+                    note: "便宜又實用的小禮物"
+                }
+            ]
+        }
+    ],
+
+    // 必吃美食
+    mustEat: [
+        {
+            category: "🦞 海鮮類（必吃！）",
+            items: [
+                {
+                    name: "龍蝦料理（Langoustine）",
+                    restaurant: "Pakkhús (Höfn)、Humarhöfnin、Fjöruborðið",
+                    price: "8000-12000 ISK",
+                    note: "⭐ Höfn 是冰島龍蝦之都，必吃！肉質鮮甜，比台灣便宜又新鮮",
+                    highlight: true
+                },
+                {
+                    name: "烤魚串",
+                    restaurant: "Seabaron (雷克雅維克舊港)",
+                    price: "2500-3500 ISK",
+                    note: "現烤魚串配龍蝦湯，舊港區名店"
+                },
+                {
+                    name: "世界級龍蝦湯",
+                    restaurant: "Fjöruborðið (Stokkseyri)",
+                    price: "6000-8000 ISK",
+                    note: "⭐ 世界級龍蝦湯，濃郁鮮美，可無限續湯配麵包"
+                },
+                {
+                    name: "炸魚薯條（Fish & Chips）",
+                    restaurant: "各大海港餐廳",
+                    price: "2000-3000 ISK",
+                    note: "用新鮮鱈魚現炸，比英國的好吃太多"
+                }
+            ]
+        },
+        {
+            category: "🌭 速食與輕食",
+            items: [
+                {
+                    name: "Bæjarins Beztu 熱狗",
+                    restaurant: "Bæjarins Beztu Pylsur（雷克雅維克港口）",
+                    price: "500-700 ISK",
+                    note: "⭐ 冰島最有名的熱狗攤！點「一份全加」（eina með öllu）：洋蔥、脆洋蔥、番茄醬、黃芥末、雷穆拉醬",
+                    highlight: true
+                },
+                {
+                    name: "肉桂捲（Kanilsnúður）",
+                    restaurant: "Brauð & Co（雷克雅維克）",
+                    price: "600-800 ISK",
+                    note: "⭐ 超級熱門！必吃熱騰騰的肉桂捲，外酥內軟，早上 7 點開門就大排長龍",
+                    highlight: true
+                },
+                {
+                    name: "麵包湯（Breadbowl Soup）",
+                    restaurant: "Svarta Kaffið、Vík Wool Café",
+                    price: "1200-1800 ISK",
+                    note: "用麵包挖空盛湯，溫暖又飽足。牛肉湯、蔬菜湯都好喝"
+                },
+                {
+                    name: "開放式三明治（Smørrebrød）",
+                    restaurant: "北歐風咖啡店",
+                    price: "1500-2500 ISK",
+                    note: "燻鮭魚、魚子醬、酸奶油，很精緻"
+                }
+            ]
+        },
+        {
+            category: "🍖 傳統冰島料理",
+            items: [
+                {
+                    name: "羊肉湯（Kjötsúpa）",
+                    restaurant: "Icelandic Street Food、各大餐廳",
+                    price: "1800-2200 ISK",
+                    note: "⭐ 冰島國民美食，可無限續湯！用根莖類蔬菜燉煮，超暖胃",
+                    highlight: true
+                },
+                {
+                    name: "烤羊排（Lamb Chops）",
+                    restaurant: "自己在營地烤或餐廳",
+                    price: "Costco 約 2000-3000 ISK/500g",
+                    note: "⭐ 冰島羊肉超嫩無騷味！建議在 Costco 買回營地自己烤，配紅酒超享受"
+                },
+                {
+                    name: "燉羊肉（Lamb Stew）",
+                    restaurant: "傳統冰島餐廳",
+                    price: "3000-4500 ISK",
+                    note: "慢燉到軟爛，配馬鈴薯泥超讚"
+                },
+                {
+                    name: "肉丸子（Kjötbollur）",
+                    restaurant: "Icelandic Street Food",
+                    price: "1800 ISK",
+                    note: "超大顆肉丸子配褐色醬汁，很家常的味道"
+                }
+            ]
+        },
+        {
+            category: "👹 地獄食材挑戰（勇者限定）",
+            items: [
+                {
+                    name: "發酵鯊魚（Hákarl）",
+                    restaurant: "Vík Wool、跳蚤市場 Kolaportið、傳統餐廳",
+                    price: "免費試吃或約 1000-2000 ISK",
+                    note: "⚠️ 世界臭名昭彰！用格陵蘭鯊魚發酵 4-6 個月，氨味超重像廁所。當地人會配 Brennivín 黑死酒壓味道"
+                },
+                {
+                    name: "羊頭肉（Svið）",
+                    restaurant: "傳統冰島餐廳、跳蚤市場",
+                    price: "2000-3000 ISK",
+                    note: "⚠️ 烤過或水煮的整顆羊頭切半，連眼睛、舌頭、腦都吃。當地老一輩很愛"
+                },
+                {
+                    name: "羊睪丸（Súrsaðir hrútspungar）",
+                    restaurant: "冬季傳統節慶 Þorrablót 才有",
+                    price: "很少餐廳賣",
+                    note: "⚠️ 酸漬羊睪丸，口感像海綿。一般餐廳吃不到，要參加 Þorrablót 節慶（1-2月）"
+                },
+                {
+                    name: "羊血布丁（Blóðmör）",
+                    restaurant: "超市（冷藏區）、傳統餐廳",
+                    price: "500-1000 ISK",
+                    note: "用羊血、羊油、麥片做成的香腸，炸過配糖超甜超鹹。當地人早餐吃"
+                },
+                {
+                    name: "酸羊睪丸凍（Sviðasulta）",
+                    restaurant: "跳蚤市場、特殊節慶",
+                    price: "1500 ISK",
+                    note: "⚠️ 用羊頭肉、羊蹄做成的肉凍，口感 Q 彈。不是每家餐廳都有"
+                }
+            ]
+        },
+        {
+            category: "🇮🇸 當地人才吃的日常食物",
+            items: [
+                {
+                    name: "魚子醬抹醬（Kaviar）",
+                    restaurant: "超市買回營地或飯店吃",
+                    price: "800-1500 ISK/條",
+                    note: "⭐ 冰島人早餐必吃！擠在麵包或餅乾上，鹹鹹的很下飯。推薦 Kalles 品牌"
+                },
+                {
+                    name: "Skyr（冰島優格）",
+                    restaurant: "各大超市",
+                    price: "150-300 ISK",
+                    note: "⭐ 高蛋白低脂，質地像希臘優格。有各種口味（藍莓、焦糖、巧克力），當早餐或點心都好",
+                    highlight: true
+                },
+                {
+                    name: "Rugbrauð（黑麥麵包）",
+                    restaurant: "超市、麵包店",
+                    price: "400-800 ISK",
+                    note: "⭐ 用地熱蒸氣烤 24 小時的甜黑麥麵包，配奶油或煙燻鮭魚超讚"
+                },
+                {
+                    name: "Kleinur（冰島甜甜圈）",
+                    restaurant: "超市、麵包店",
+                    price: "200-400 ISK/個",
+                    note: "扭結狀的炸甜甜圈，配咖啡超搭"
+                },
+                {
+                    name: "Pylsa（熱狗）+ Skyr",
+                    restaurant: "當地人的日常組合",
+                    price: "約 1000 ISK",
+                    note: "冰島人午餐常吃熱狗配 Skyr 優格，簡單又營養"
+                },
+                {
+                    name: "Plokkfiskur（魚肉燉菜）",
+                    restaurant: "家常菜，少數傳統餐廳有",
+                    price: "2000-3000 ISK",
+                    note: "用鱈魚、馬鈴薯、洋蔥燉煮的家常菜，很樸實的味道"
+                },
+                {
+                    name: "Hangikjöt（煙燻羊肉）",
+                    restaurant: "超市（切片包裝）、聖誕節期間餐廳",
+                    price: "1500-2500 ISK",
+                    note: "聖誕節必吃！煙燻羊肉配白醬和馬鈴薯，煙燻味很重"
+                }
+            ]
+        },
+        {
+            category: "🍦 甜點與飲品",
+            items: [
+                {
+                    name: "Valdís 冰淇淋",
+                    restaurant: "Valdís（雷克雅維克）",
+                    price: "600-900 ISK",
+                    note: "⭐ 在地超人氣，口味多元（推薦甘草、海鹽焦糖、大黃）",
+                    highlight: true
+                },
+                {
+                    name: "Brynja 冰淇淋",
+                    restaurant: "Brynja（阿克雷里）",
+                    price: "500-800 ISK",
+                    note: "⭐ 北部傳奇冰淇淋店，必吃！份量超大",
+                    highlight: true
+                },
+                {
+                    name: "Efstidalur II 冰淇淋",
+                    restaurant: "Efstidalur II（黃金圈）",
+                    price: "800-1200 ISK",
+                    note: "⭐ 農場自製，可以看到牛屁股（牛在玻璃後面），超療癒"
+                },
+                {
+                    name: "Skyr Cake（Skyrkaka）",
+                    restaurant: "咖啡店、麵包店",
+                    price: "800-1200 ISK",
+                    note: "用 Skyr 做的起司蛋糕，清爽不膩"
+                },
+                {
+                    name: "冰島咖啡（Kaffi）",
+                    restaurant: "Reykjavík Roasters、Te & Kaffi",
+                    price: "500-800 ISK",
+                    note: "冰島人超愛喝咖啡，品質很高"
+                }
+            ]
+        },
+        {
+            category: "🍅 特色餐廳",
+            items: [
+                {
+                    name: "溫室蕃茄農場",
+                    restaurant: "Friðheimar（黃金圈）",
+                    price: "2500-3500 ISK",
+                    note: "⭐ 在溫室裡吃蕃茄湯配麵包，超級新鮮！還有蕃茄血腥瑪麗調酒"
+                },
+                {
+                    name: "披薩",
+                    restaurant: "Askur Pizzeria（Egilsstaðir）",
+                    price: "2000-3000 ISK",
+                    note: "東部最好吃的披薩，口味豐富"
+                }
+            ]
+        }
     ]
 };
