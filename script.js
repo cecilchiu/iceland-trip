@@ -127,6 +127,10 @@ function switchTab(tabName) {
             renderChecklist();
         } else if (tabName === 'tips') {
             renderTips();
+        } else if (tabName === 'souvenirs') {
+            renderSouvenirs();
+        } else if (tabName === 'must-eat') {
+            renderMustEat();
         }
 
         contentArea.classList.add('fade-in');
@@ -573,4 +577,109 @@ function updateDayCompletionStatus() {
             navButton.classList.remove('completed');
         }
     });
+}
+
+// ==================== 渲染必買伴手禮 ====================
+function renderSouvenirs() {
+    const contentArea = document.getElementById('content-area');
+
+    let html = `
+        <div class="day-header">
+            <div class="day-title"><i class="fas fa-gift"></i> 必買伴手禮推薦</div>
+        </div>
+    `;
+
+    tripData.souvenirs.forEach(section => {
+        html += `<div class="section-title">${section.category}</div>`;
+
+        section.items.forEach(item => {
+            html += `
+                <div class="tip-box" style="margin-bottom: 1rem;">
+                    <h3 style="color: var(--dark-brown); margin-bottom: 0.5rem; font-size: 1.05rem;">${item.name}</h3>
+                    <div style="display: flex; flex-direction: column; gap: 0.3rem; font-size: 0.9rem;">
+                        <div><strong>💰 價格：</strong>${item.price}</div>
+                        <div><strong>🏪 哪裡買：</strong>${item.where}</div>
+                        <div><strong>📝 備註：</strong>${item.note}</div>
+                    </div>
+                </div>
+            `;
+        });
+    });
+
+    html += `
+        <div class="warning-box">
+            <h3><i class="fas fa-exclamation-triangle"></i> 購物提醒</h3>
+            <ul style="padding-left: 1.5rem; line-height: 2;">
+                <li><strong>機場免稅店</strong>可買酒類、巧克力、保養品，出境前最後機會</li>
+                <li><strong>羊毛衣</strong>建議在 Vík 或跳蚤市場買，比雷克雅維克市區便宜 30-50%</li>
+                <li><strong>魚油、魚子醬</strong>超市就有賣，品質好又便宜（Bónus 最便宜）</li>
+                <li><strong>超市採購</strong>推薦 Bónus 買巧克力、Skyr、魚乾、魚子醬</li>
+                <li>退稅門檻 <strong>6000 ISK</strong>，機場辦理退稅（約 15% 退稅率）</li>
+                <li><strong>跳蚤市場 Kolaportið</strong>（週六日 11:00-17:00）可挖寶二手羊毛衣、試吃發酵鯊魚</li>
+            </ul>
+        </div>
+    `;
+
+    contentArea.innerHTML = html;
+}
+
+// ==================== 渲染必吃美食 ====================
+function renderMustEat() {
+    const contentArea = document.getElementById('content-area');
+
+    let html = `
+        <div class="day-header">
+            <div class="day-title"><i class="fas fa-utensils"></i> 必吃美食推薦</div>
+        </div>
+    `;
+
+    tripData.mustEat.forEach(section => {
+        html += `<div class="section-title">${section.category}</div>`;
+
+        section.items.forEach(item => {
+            const borderColor = item.highlight ? 'var(--olive-green)' : 'var(--sand-beige)';
+            const bgColor = item.highlight ? '#F0F5EB' : 'var(--warm-beige)';
+
+            html += `
+                <div style="background: ${bgColor}; border-left: 4px solid ${borderColor}; border-radius: 8px; padding: 1rem; margin-bottom: 1rem;">
+                    <h3 style="color: var(--dark-brown); margin-bottom: 0.5rem; font-size: 1.05rem;">
+                        ${item.name} ${item.highlight ? '<span style="background: var(--terracotta); color: white; padding: 0.2rem 0.5rem; border-radius: 10px; font-size: 0.7rem; margin-left: 0.5rem;">必吃</span>' : ''}
+                    </h3>
+                    <div style="display: flex; flex-direction: column; gap: 0.3rem; font-size: 0.9rem; color: var(--text-light);">
+                        <div><strong>🏪 餐廳：</strong>${item.restaurant}</div>
+                        <div><strong>💰 價格：</strong>${item.price}</div>
+                        <div><strong>📝 推薦：</strong>${item.note}</div>
+                    </div>
+                </div>
+            `;
+        });
+    });
+
+    html += `
+        <div class="warning-box">
+            <h3><i class="fas fa-exclamation-triangle"></i> 用餐提醒</h3>
+            <ul style="padding-left: 1.5rem; line-height: 2;">
+                <li><strong>Höfn 龍蝦</strong>建議事先訂位（Pakkhús、Humarhöfnin 很熱門）</li>
+                <li><strong>熱門餐廳</strong>午餐比晚餐便宜 20-30%</li>
+                <li><strong>超市自煮</strong>是省錢王道，Costco 買肉回營地烤最划算</li>
+                <li>冰島<strong>不需給小費</strong>，帳單已含服務費</li>
+                <li><strong>自來水免費且可生飲</strong>，不用買瓶裝水（世界最純淨）</li>
+                <li><strong>魚子醬抹醬、Skyr 優格</strong>超市買超便宜，當地人每天吃</li>
+                <li><strong>發酵鯊魚</strong>可在跳蚤市場免費試吃（記得配 Brennivín 黑死酒壓味道）</li>
+            </ul>
+        </div>
+
+        <div class="tip-box">
+            <h3><i class="fas fa-lightbulb"></i> 省錢攻略</h3>
+            <ul style="padding-left: 1.5rem; line-height: 2;">
+                <li><strong>Day 1 Costco</strong> 大採購：羊排、牛排、雞腿超便宜，回營地自己烤</li>
+                <li><strong>超市熟食</strong>：Bónus 有便宜的炸雞、披薩（約 1000 ISK）</li>
+                <li><strong>加油站熱食</strong>：N1 的熱狗、漢堡比餐廳便宜（500-800 ISK）</li>
+                <li><strong>自備泡麵</strong>：台灣帶幾包泡麵去，營地煮超方便</li>
+                <li><strong>午餐特惠</strong>：很多餐廳中午有 Today's Special（比晚餐便宜一半）</li>
+            </ul>
+        </div>
+    `;
+
+    contentArea.innerHTML = html;
 }
