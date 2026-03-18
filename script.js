@@ -158,6 +158,17 @@ function renderDayContent(dayIndex) {
         </div>
     `;
 
+    // 路線圖連結
+    if (day.routeMap) {
+        html += `
+            <div style="margin: 1rem 0;">
+                <a href="${day.routeMap}" target="_blank" class="map-link" style="display: inline-flex; font-size: 0.95rem; padding: 0.6rem 1rem;">
+                    <i class="fas fa-route"></i> 查看今日路線圖
+                </a>
+            </div>
+        `;
+    }
+
     // 景點活動
     if (day.attractions && day.attractions.length > 0) {
         html += `<div class="section-title"><i class="fas fa-map-marked-alt"></i> 景點活動</div>`;
