@@ -8,6 +8,7 @@ const tripData = {
             title: "抵達、補給與雷克雅維克",
             distance: "75 km",
             accommodation: "Reykjavík Eco Campsite",
+            routeMap: "https://maps.app.goo.gl/3VVbeRyASwQgQppz6",
             attractions: [
                 {
                     name: "凱夫拉維克國際機場 (KEF)",
@@ -139,6 +140,7 @@ const tripData = {
             title: "黃金圈大滿貫",
             distance: "195 km",
             accommodation: "Selfoss Campsite",
+            routeMap: "https://maps.app.goo.gl/CJjh1Tzg4WxhhQMYA",
             attractions: [
                 {
                     name: "辛格維利爾國家公園",
@@ -227,6 +229,7 @@ const tripData = {
             title: "南岸瀑布與相框洞穴",
             distance: "195 km",
             accommodation: "Skógar Campsite",
+            routeMap: "https://maps.app.goo.gl/AYhkdcGmbEY3QQwB8",
             attractions: [
                 {
                     name: "Urriðafoss",
@@ -298,6 +301,7 @@ const tripData = {
             title: "黑沙灘與震撼峽谷",
             distance: "210 km",
             accommodation: "Skaftafell Campground",
+            routeMap: "https://maps.app.goo.gl/Pv9hvbXPPdQKJVnK8",
             attractions: [
                 {
                     name: "Reynisfjara 黑沙灘",
@@ -325,6 +329,12 @@ const tripData = {
                     note: "選購冰島毛衣"
                 },
                 {
+                    name: "Laufskálavarða",
+                    mapLink: "https://www.google.com/maps/search/?api=1&query=63.7558,-18.3594",
+                    duration: "20 分鐘",
+                    note: "苔原上的石堆紀念碑，旅人傳統祈福地"
+                },
+                {
                     name: "羽毛河峽谷",
                     mapLink: "https://www.google.com/maps/search/?api=1&query=63.771279,-18.1718159",
                     duration: "1.5 小時",
@@ -346,6 +356,7 @@ const tripData = {
             title: "深度冰川、冰河湖與龍蝦",
             distance: "160 km",
             accommodation: "Höfn Camping",
+            routeMap: "https://maps.app.goo.gl/VrfSy1kw7yTak1mW6",
             attractions: [
                 {
                     name: "冰川健行/藍冰洞",
@@ -412,6 +423,7 @@ const tripData = {
             title: "紅牆瀑布與白日夢場景",
             distance: "320 km",
             accommodation: "Egilsstaðir Camping",
+            routeMap: "https://maps.app.goo.gl/t7dW51uzXAoi5x4P7",
             attractions: [
                 {
                     name: "Djúpivogur 蛋雕",
@@ -474,6 +486,7 @@ const tripData = {
             title: "玄武岩峽谷與地熱震撼",
             distance: "285 km",
             accommodation: "Hlíð ferðaþjónusta (米湖)",
+            routeMap: "https://maps.app.goo.gl/fhTyqLDkj4oN6uGm7",
             attractions: [
                 {
                     name: "Vök Baths",
@@ -528,6 +541,7 @@ const tripData = {
             title: "米湖深度遊與北部大城",
             distance: "250 km",
             accommodation: "Lambeyri 超高分營地",
+            routeMap: "https://maps.app.goo.gl/BSfoFevPNv4sVrVG6",
             attractions: [
                 {
                     name: "Skútustaðagígar",
@@ -598,6 +612,7 @@ const tripData = {
             title: "最長移動日、犀牛石與補給",
             distance: "320 km",
             accommodation: "Snorrastaðir Campsite",
+            routeMap: "https://maps.app.goo.gl/T6zLXhrNVC7CSK3p9",
             attractions: [
                 {
                     name: "Icelandic Horse Tours",
@@ -645,6 +660,7 @@ const tripData = {
             title: "斯奈山半島地標",
             distance: "175 km",
             accommodation: "The Freezer Camping",
+            routeMap: "https://maps.app.goo.gl/axLJduFnUCNJ9cKi6",
             attractions: [
                 {
                     name: "Gerðuberg Cliffs",
@@ -698,6 +714,7 @@ const tripData = {
             title: "海豹、博物館與鯨魚峽灣",
             distance: "260 km",
             accommodation: "Bjarteyjarsandur",
+            routeMap: "https://maps.app.goo.gl/jNW8XSmv6anYNVY79",
             attractions: [
                 {
                     name: "Arnarstapi 巨人石像",
@@ -757,6 +774,7 @@ const tripData = {
             title: "燈塔溫泉與天空之鏡",
             distance: "100 km",
             accommodation: "Reykjavík Eco Campsite",
+            routeMap: "https://maps.app.goo.gl/7hzxXkQG39G3htpN8",
             attractions: [
                 {
                     name: "Akranes Lighthouses",
@@ -804,6 +822,7 @@ const tripData = {
             title: "市區深度遊與地熱末班車",
             distance: "115 km",
             accommodation: "CampEasy 辦公室停車場",
+            routeMap: "https://maps.app.goo.gl/GpxpZfJEZ5Zny5xEA",
             attractions: [
                 {
                     name: "Tjörnin 鴨子湖",
