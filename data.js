@@ -420,7 +420,7 @@ const tripData = {
         // Day 6
         {
             date: "3/26 (四)",
-            title: "紅牆瀑布與白日夢場景",
+            title: "東部峽灣與白日夢場景",
             distance: "320 km",
             accommodation: "Egilsstaðir Camping",
             routeMap: "https://maps.app.goo.gl/t7dW51uzXAoi5x4P7",
@@ -432,11 +432,10 @@ const tripData = {
                     note: "港口旁的 34 顆石蛋"
                 },
                 {
-                    name: "Hengifoss 紅牆瀑布",
-                    mapLink: "https://www.google.com/maps/search/?api=1&query=65.0945,-14.8911",
-                    duration: "2.5 小時",
-                    note: "震撼紅色牆面",
-                    highlight: true
+                    name: "Folaldafoss",
+                    mapLink: "https://maps.app.goo.gl/wYTwUheomY1dh61e8",
+                    duration: "30 分鐘",
+                    note: "東部峽灣隱藏瀑布"
                 },
                 {
                     name: "Seyðisfjörður 小鎮",
@@ -502,6 +501,12 @@ const tripData = {
                     highlight: true
                 },
                 {
+                    name: "Viti 火口湖",
+                    mapLink: "https://maps.app.goo.gl/FbL6Qg7S3QFx8y1eA",
+                    duration: "30 分鐘",
+                    note: "Krafla 火山區的藍綠色火口湖"
+                },
+                {
                     name: "黛提瀑布 (西側)",
                     mapLink: "https://www.google.com/maps/search/?api=1&query=65.8146662,-16.384576",
                     duration: "1.5 小時",
@@ -521,10 +526,22 @@ const tripData = {
                     note: "權力遊戲拍片地"
                 },
                 {
+                    name: "Viewpoint from Hverfjall volcano",
+                    mapLink: "https://maps.app.goo.gl/vfp7rKMuUtUV73UXA",
+                    duration: "30 分鐘",
+                    note: "Hverfjall 火山口觀景點"
+                },
+                {
                     name: "Dimmuborgir 黑色城堡",
                     mapLink: "https://www.google.com/maps/search/?api=1&query=65.5912203,-16.91228",
                     duration: "1.5 小時",
                     note: "奇形怪狀的熔岩迷宮"
+                },
+                {
+                    name: "Skútustaðagígar",
+                    mapLink: "https://maps.app.goo.gl/ApGHXKLJemWqQ1kZ7",
+                    duration: "45 分鐘",
+                    note: "壯觀的偽火山口群"
                 }
             ],
             food: [
@@ -543,18 +560,6 @@ const tripData = {
             accommodation: "Lambeyri 超高分營地",
             routeMap: "https://maps.app.goo.gl/BSfoFevPNv4sVrVG6",
             attractions: [
-                {
-                    name: "Skútustaðagígar",
-                    mapLink: "https://www.google.com/maps/search/?api=1&query=65.5708874,-17.0347043",
-                    duration: "45 分鐘",
-                    note: "壯觀的偽火山口群"
-                },
-                {
-                    name: "Hverfjall 火山口",
-                    mapLink: "https://www.google.com/maps/search/?api=1&query=65.6087852,-16.8779209",
-                    duration: "1.5 小時",
-                    note: "徒步爬上巨大火口圈"
-                },
                 {
                     name: "GeoSea 峭壁溫泉",
                     mapLink: "https://www.google.com/maps/search/?api=1&query=66.0520,-17.3620",
@@ -612,7 +617,7 @@ const tripData = {
             title: "最長移動日、犀牛石與補給",
             distance: "320 km",
             accommodation: "Snorrastaðir Campsite",
-            routeMap: "https://maps.app.goo.gl/T6zLXhrNVC7CSK3p9",
+            routeMap: "https://maps.app.goo.gl/W1oMVZobJ85y9mCZ8",
             attractions: [
                 {
                     name: "Icelandic Horse Tours",
@@ -625,6 +630,12 @@ const tripData = {
                     mapLink: "https://www.google.com/maps/search/?api=1&query=65.6103973,-19.5043888",
                     duration: "1 小時",
                     note: "傳統草皮建築"
+                },
+                {
+                    name: "Hrútey Island in Blanda River",
+                    mapLink: "https://maps.app.goo.gl/gj8f5Lqi5xMSarna7",
+                    duration: "30 分鐘",
+                    note: "布蘭達河中的小島"
                 },
                 {
                     name: "Vatnsdalshólar 蟻丘",
@@ -650,6 +661,12 @@ const tripData = {
                     mapLink: "https://www.google.com/maps/search/?api=1&query=65.3333817,-20.5712959",
                     duration: "45 分鐘",
                     note: "深邃壯麗的峽谷景觀"
+                },
+                {
+                    name: "Grábrók",
+                    mapLink: "https://maps.app.goo.gl/4DXRhaEGjdL586t6A",
+                    duration: "45 分鐘",
+                    note: "可攀爬的火山口，360度全景"
                 }
             ],
             food: []
@@ -660,7 +677,7 @@ const tripData = {
             title: "斯奈山半島地標",
             distance: "175 km",
             accommodation: "The Freezer Camping",
-            routeMap: "https://maps.app.goo.gl/axLJduFnUCNJ9cKi6",
+            routeMap: "https://maps.app.goo.gl/EAPXoPSoF2aHg6jC6",
             attractions: [
                 {
                     name: "Gerðuberg Cliffs",
@@ -688,22 +705,10 @@ const tripData = {
                     note: "絕壁上的亮點燈塔"
                 },
                 {
-                    name: "Lóndrangar 玄武岩柱",
-                    mapLink: "https://www.google.com/maps/search/?api=1&query=64.7394,-23.7778",
-                    duration: "20 分鐘",
-                    note: "海中巨大玄武岩石柱"
-                },
-                {
                     name: "Saxhóll Crater 火山口",
                     mapLink: "https://www.google.com/maps/search/?api=1&query=64.7694,-23.7067",
                     duration: "30 分鐘",
                     note: "可攀爬的火山口，360度全景"
-                },
-                {
-                    name: "Djúpalónssandur 黑沙灘",
-                    mapLink: "https://www.google.com/maps/search/?api=1&query=64.753333,-23.593056",
-                    duration: "1 小時",
-                    note: "沉船殘骸與力氣石"
                 }
             ],
             food: []
@@ -711,11 +716,30 @@ const tripData = {
         // Day 11
         {
             date: "3/31 (二)",
-            title: "海豹、博物館與鯨魚峽灣",
+            title: "洞穴探險、海豹與博物館",
             distance: "260 km",
             accommodation: "Bjarteyjarsandur",
-            routeMap: "https://maps.app.goo.gl/jNW8XSmv6anYNVY79",
+            routeMap: "https://maps.app.goo.gl/ioFNLsNJcLXwefy48",
             attractions: [
+                {
+                    name: "瓦汀舍利爾洞穴 (Vatnshellir Cave)",
+                    mapLink: "https://maps.app.goo.gl/EURutJ7Mb1NbZtcZ7",
+                    duration: "45 分鐘",
+                    note: "11:00 洞穴導覽行程",
+                    highlight: true
+                },
+                {
+                    name: "Lóndrangar 玄武岩柱",
+                    mapLink: "https://www.google.com/maps/search/?api=1&query=64.7394,-23.7778",
+                    duration: "20 分鐘",
+                    note: "海中巨大玄武岩石柱"
+                },
+                {
+                    name: "Djúpalónssandur 黑沙灘",
+                    mapLink: "https://www.google.com/maps/search/?api=1&query=64.753333,-23.593056",
+                    duration: "1 小時",
+                    note: "沉船殘骸與力氣石"
+                },
                 {
                     name: "Arnarstapi 巨人石像",
                     mapLink: "https://www.google.com/maps/search/?api=1&query=64.766667,-23.616667",
