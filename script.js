@@ -152,7 +152,7 @@ function renderDayContent(dayIndex) {
                 </div>
                 <div class="day-info-item">
                     <i class="fas fa-campground"></i>
-                    <span>住宿：${day.accommodation || '待定'}</span>
+                    <span>住宿：${day.accommodationLink ? `<a href="${day.accommodationLink}" target="_blank" style="color: var(--earth-brown); text-decoration: underline;">${day.accommodation || '待定'}</a>` : (day.accommodation || '待定')}</span>
                 </div>
             </div>
         </div>
