@@ -1,4 +1,5 @@
 // 冰島 14 天露營車環島旅行數據
+// 總里程：2590 km
 const tripData = {
     // 每日行程
     days: [
@@ -6,8 +7,9 @@ const tripData = {
         {
             date: "3/21 (六)",
             title: "抵達、補給與雷克雅維克",
-            distance: "75 km",
+            distance: "65 km",
             accommodation: "Reykjavík Eco Campsite",
+            accommodationLink: "https://maps.app.goo.gl/6174X4xkKvrSmJzc7",
             routeMap: "https://maps.app.goo.gl/3VVbeRyASwQgQppz6",
             attractions: [
                 {
@@ -138,8 +140,9 @@ const tripData = {
         {
             date: "3/22 (日)",
             title: "黃金圈大滿貫",
-            distance: "195 km",
-            accommodation: "Selfoss Campsite",
+            distance: "210 km",
+            accommodation: "Camping Selfoss",
+            accommodationLink: "https://maps.app.goo.gl/HgDXRyAUFq7HT4Ek8",
             routeMap: "https://maps.app.goo.gl/CJjh1Tzg4WxhhQMYA",
             attractions: [
                 {
@@ -227,8 +230,9 @@ const tripData = {
         {
             date: "3/23 (一)",
             title: "南岸瀑布與相框洞穴",
-            distance: "195 km",
-            accommodation: "Skógar Campsite",
+            distance: "200 km",
+            accommodation: "Skógar Campsite（暫時關閉）",
+            accommodationLink: "https://maps.app.goo.gl/sy7gf8262dKdsChg9",
             routeMap: "https://maps.app.goo.gl/AYhkdcGmbEY3QQwB8",
             attractions: [
                 {
@@ -299,8 +303,9 @@ const tripData = {
         {
             date: "3/24 (二)",
             title: "黑沙灘與震撼峽谷",
-            distance: "210 km",
+            distance: "205 km",
             accommodation: "Skaftafell Campground",
+            accommodationLink: "https://maps.app.goo.gl/UKnFeAQmFpaqUAF57",
             routeMap: "https://maps.app.goo.gl/Pv9hvbXPPdQKJVnK8",
             attractions: [
                 {
@@ -354,8 +359,9 @@ const tripData = {
         {
             date: "3/25 (三)",
             title: "深度冰川、冰河湖與龍蝦",
-            distance: "160 km",
-            accommodation: "Höfn Camping",
+            distance: "190 km",
+            accommodation: "Camping Höfn",
+            accommodationLink: "https://maps.app.goo.gl/wBPvfCfqXPwB8yJHA",
             routeMap: "https://maps.app.goo.gl/VrfSy1kw7yTak1mW6",
             attractions: [
                 {
@@ -422,7 +428,8 @@ const tripData = {
             date: "3/26 (四)",
             title: "東部峽灣與白日夢場景",
             distance: "320 km",
-            accommodation: "Egilsstaðir Camping",
+            accommodation: "Camp Egilsstadir and Egilsstadastofa Visitor Center",
+            accommodationLink: "https://maps.app.goo.gl/4QxhFMwawXoi3gdFA",
             routeMap: "https://maps.app.goo.gl/t7dW51uzXAoi5x4P7",
             attractions: [
                 {
@@ -483,8 +490,9 @@ const tripData = {
         {
             date: "3/27 (五)",
             title: "玄武岩峽谷與地熱震撼",
-            distance: "285 km",
+            distance: "270 km",
             accommodation: "Hlíð ferðaþjónusta (米湖)",
+            accommodationLink: "https://maps.app.goo.gl/YcvH6onnBsmmHHsN8",
             routeMap: "https://maps.app.goo.gl/fhTyqLDkj4oN6uGm7",
             attractions: [
                 {
@@ -556,8 +564,9 @@ const tripData = {
         {
             date: "3/28 (六)",
             title: "米湖深度遊與北部大城",
-            distance: "250 km",
-            accommodation: "Lambeyri 超高分營地",
+            distance: "275 km",
+            accommodation: "Lambeyri",
+            accommodationLink: "https://maps.app.goo.gl/DgCdFb9wMM1FDxdc7",
             routeMap: "https://maps.app.goo.gl/BSfoFevPNv4sVrVG6",
             attractions: [
                 {
@@ -615,8 +624,9 @@ const tripData = {
         {
             date: "3/29 (日)",
             title: "最長移動日、犀牛石與補給",
-            distance: "320 km",
+            distance: "370 km",
             accommodation: "Snorrastaðir Campsite",
+            accommodationLink: "https://maps.app.goo.gl/9BTmGfNZ9UpCPyiQ8",
             routeMap: "https://maps.app.goo.gl/W1oMVZobJ85y9mCZ8",
             attractions: [
                 {
@@ -675,8 +685,9 @@ const tripData = {
         {
             date: "3/30 (一)",
             title: "斯奈山半島地標",
-            distance: "175 km",
-            accommodation: "The Freezer Camping",
+            distance: "180 km",
+            accommodation: "The Freezer Hostel",
+            accommodationLink: "https://maps.app.goo.gl/6R5LbDqnnBepVuGF7",
             routeMap: "https://maps.app.goo.gl/EAPXoPSoF2aHg6jC6",
             attractions: [
                 {
@@ -717,8 +728,9 @@ const tripData = {
         {
             date: "3/31 (二)",
             title: "洞穴探險、海豹與博物館",
-            distance: "260 km",
+            distance: "215 km",
             accommodation: "Bjarteyjarsandur",
+            accommodationLink: "https://maps.app.goo.gl/ExBFJUPJqSHpidVh8",
             routeMap: "https://maps.app.goo.gl/ioFNLsNJcLXwefy48",
             attractions: [
                 {
@@ -796,8 +808,9 @@ const tripData = {
         {
             date: "4/1 (三)",
             title: "燈塔溫泉與天空之鏡",
-            distance: "100 km",
+            distance: "90 km",
             accommodation: "Reykjavík Eco Campsite",
+            accommodationLink: "https://maps.app.goo.gl/sgcp8Pd3gSYCWM3F6",
             routeMap: "https://maps.app.goo.gl/7hzxXkQG39G3htpN8",
             attractions: [
                 {
