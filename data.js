@@ -231,9 +231,9 @@ const tripData = {
             date: "3/23 (一)",
             title: "南岸瀑布與相框洞穴",
             distance: "200 km",
-            accommodation: "Skógar Campsite（暫時關閉）",
-            accommodationLink: "https://maps.app.goo.gl/sy7gf8262dKdsChg9",
-            routeMap: "https://maps.app.goo.gl/AYhkdcGmbEY3QQwB8",
+            accommodation: "Guesthouse Carina",
+            accommodationLink: "https://maps.app.goo.gl/6e1PsGHbvvtDDfwV6",
+            routeMap: "https://maps.app.goo.gl/byEd8NfoFPf3VccH6",
             attractions: [
                 {
                     name: "Urriðafoss",
@@ -809,9 +809,9 @@ const tripData = {
             date: "4/1 (三)",
             title: "燈塔溫泉與天空之鏡",
             distance: "90 km",
-            accommodation: "Reykjavík Eco Campsite",
-            accommodationLink: "https://maps.app.goo.gl/sgcp8Pd3gSYCWM3F6",
-            routeMap: "https://maps.app.goo.gl/7hzxXkQG39G3htpN8",
+            accommodation: "Apartments Reykjavik",
+            accommodationLink: "https://maps.app.goo.gl/vUX7wd5VX3UsYHTK8",
+            routeMap: "https://maps.app.goo.gl/rVRdJctkzBXBwMBKA",
             attractions: [
                 {
                     name: "Akranes Lighthouses",
